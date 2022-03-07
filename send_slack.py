@@ -18,7 +18,7 @@ if len(sys.argv) > 0:
 
 try:
     response = client.chat_postMessage(
-            channel="C035LSTFM8C", 
+            channel="hackathon-healthcheck", 
             text=msg,
             username="alertbot",
             icon_emoji=":pager:"
